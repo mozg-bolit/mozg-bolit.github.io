@@ -1,0 +1,121 @@
+body{
+    background: url(/img/фон.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+}
+.container{
+    margin: 0 80px;
+
+}
+.header-txt{
+    font-size: 96px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 63px;
+}
+.cards{
+    display: flex;
+    margin-top: 595px;
+    justify-content: space-around;
+}
+.card{
+    width: 404.914px;
+    height: 294px;
+    border-radius: 26px;
+    background: #FFC700;
+    margin-bottom: 215px;
+}
+.card-o{
+    width: 404.914px;
+    height: 294px;
+    border-radius: 26px;
+    background: #FFC700;
+    margin-bottom: 215px;
+}
+.card-icon-svg{
+    margin: 39px 0 28px 32px;
+    height: 50px;
+    width: 50px;
+}
+.card-txt{
+    margin-left: 39px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+}
+.posters{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.poster-obj{
+    width: 400px;
+    height: 800px;
+    flex-shrink: 0;
+    background-color: #FFC700;
+    border-radius: 25px;
+}
+.poster-svg{
+    border-radius: 25px 25px 0 0;
+}
+.poster-url{
+    color: #000;
+    text-decoration: none;
+}
+.poster-txt{
+    margin-top: 66px;
+    margin-bottom: 78px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    justify-self: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1350px){
+    .cards{
+        display: block;
+        margin-bottom: 300px;
+    }
+    .card{
+        margin-bottom: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-o{
+        margin-bottom: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-txt{
+        font-size: 50px;
+    }
+    .posters{
+        display: block;
+    }
+    .poster-obj{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 2200px){
+    .cards{
+        margin-top: 1000px;
+    }
+}
+@media screen and (min-width: 2800px){
+    .cards{
+        margin-top: 1500px;
+    }
+}
